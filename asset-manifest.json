@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/follow-cards-tech_task1/static/css/main.57c912e1.css",
+    "main.js": "/follow-cards-tech_task1/static/js/main.8d68ade3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/follow-cards-tech_task1/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/follow-cards-tech_task1/index.html",
+    "main.57c912e1.css.map": "/follow-cards-tech_task1/static/css/main.57c912e1.css.map",
+    "main.8d68ade3.js.map": "/follow-cards-tech_task1/static/js/main.8d68ade3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/follow-cards-tech_task1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c912e1.css",
+    "static/js/main.8d68ade3.js"
+  ]
+}
