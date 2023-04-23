@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
-import { Container, Button, Tweet, Followers } from "./Card.styled";
+import { Container, Button, Tweet, Followers, ButtonFollowing } from "./Card.styled";
 import Image from "../image/Image";
 // import ButtonLoad from '../button/Btn';
 // import Description from "../description/Description";
@@ -37,14 +37,14 @@ const Card = ( users) => {
   <Image image={avatar} alt={user} />
 
   
-            <Tweet>{tweets}</Tweet>
+            <Tweet>{tweets} tweets</Tweet>
             <Followers>
-{numberFollowers.toLocaleString('en-US')}
+{numberFollowers.toLocaleString('en-US')} followers
             </Followers>
   {isFollowing ?
-        <Button type='button'
+        <ButtonFollowing type='button'
           onClick={onFollowingClick}
-         >Following</Button>
+         >Following</ButtonFollowing>
       : <Button type='button'
           onClick={onFollowClick}
           >Follow</Button>
